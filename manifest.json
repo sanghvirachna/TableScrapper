@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Table Scraper",
+  "version": "1.0",
+  "description": "Scrape data from HTML table and save as CSV",
+  "permissions": ["activeTab", "downloads", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+ 
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1:5500/index.html"],
+      "js": ["content.js"]
+    }
+  ]
+}
