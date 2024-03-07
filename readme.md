@@ -30,7 +30,7 @@ We're committed to enhancing TableScrapper. Here are some upcoming features:
 
 ## 🤝 Contributing
 
-We welcome contributions! If you'd like to contribute to TableWrap, please visit our GitHub repository. Feel free to open issues, submit pull requests, or provide feedback. 👥
+We welcome contributions! If you'd like to contribute to TableScrapper, please visit our GitHub repository. Feel free to open issues, submit pull requests, or provide feedback. 👥
 
 ## 📖 Documentation
 
